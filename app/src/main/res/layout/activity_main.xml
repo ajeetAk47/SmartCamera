@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_camera"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.smart.camera.smartcamera.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/activitytitle"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Welcome To Smart Scanner"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:padding="15dp" />
+
+    <TextView
+        android:id="@+id/progressinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activitytitle"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Your picture will be shown below."
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
+
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btncapture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#1E88E5"
+        android:text="    Capture Image    "
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btngallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="
+
+          Open Gallery     "
+        android:textColor="#ffffff" />
+</LinearLayout>
